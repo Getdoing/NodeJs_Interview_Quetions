@@ -25,7 +25,8 @@
     ans:-
     ➔ In Node.js, Modules are the blocks of encapsulated code that communicate with an external application on the basis of their related functionality.
     ➔ Modules can be a single file or a collection of multiples files/folders.
-    ➔ The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks. Modules are of three types:
+    ➔ The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks. 
+       Modules are of three types:
     1. Core Modules/Internal modules
     2. Local Modules/Custom modules
     3. Third-party Modules
