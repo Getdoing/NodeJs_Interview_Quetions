@@ -2,14 +2,26 @@
     1) what are the different types of HTTP request ?
     ans:-
     HTTP (Hypertext Transfer Protocol) specifies a collection of request methods to specify what action is to be performed on a particular resource.
+<<<<<<< HEAD
     The most commonly used HTTP request methods are GET, POST, PUT, PATCH, and DELETE.
     These are equivalent to the CRUD operations (create, read, update, and delete).
     GET: GET request is used to read/retrieve data from a web server. GET returns an HTTP status code of 200 (OK) if the data is successfully retrieved from the server.
     POST: POST request is used to send data (file, form data, etc.) to the server. On successful creation, it returns an HTTP status code of 201.
     PUT: A PUT request is used to modify the data on the server. It replaces the entire content at a particular location with data that is passed in the body payload.
+=======
+    The most commonly used HTTP request methods are GET, POST, PUT, PATCH, and DELETE. These are equivalent to the CRUD operations (create, read, update, and delete).
+    GET:
+    GET request is used to read/retrieve data from a web server. GET returns an HTTP status code of 200 (OK) if the data is successfully retrieved from the server.
+    POST:
+    POST request is used to send data (file, form data, etc.) to the server. On successful creation, it returns an HTTP status code of 201.
+    PUT: 
+    A PUT request is used to modify the data on the server. It replaces the entire content at a particular location with data that is passed in the body payload.
+>>>>>>> e612eb255979b4f872015e2eca020b252a50f946
     If there are no resources that match the request, it will generate one.
-    PATCH: PATCH is similar to PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
-    DELETE: A DELETE request is used to delete the data on the server at a specified location.
+    PATCH: 
+    PATCH is similar to PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
+    DELETE:
+    A DELETE request is used to delete the data on the server at a specified location.
 
     2) Explain the concept of middleware in Node.js ?
     ans:-
@@ -36,7 +48,11 @@
     4) What is Express.How it helps you to create a backend application
     ans:-
     Express.js: Express is a small framework that sits on top of Node.js’s web server functionality to simplify its APIs and add helpful new features.
+<<<<<<< HEAD
     It makes it easier to organize your application’s functionality with middleware and routing.
+=======
+    It makes it easier to organize your application’s functionality with middleware and routing. 
+>>>>>>> e612eb255979b4f872015e2eca020b252a50f946
     It adds helpful utilities to Node.js’s HTTP objects.
     It facilitates the rendering of dynamic HTTP objects.
     *More features than Node.js
@@ -67,8 +83,16 @@
 
     7) What are JWT tokens ?
     ans:-
+<<<<<<< HEAD
     JSON web token (JWT), pronounced "jot", is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
     Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs. when we logged-in somewhere , they provide us a unique token.
     which helps us to access through it token is provided only when the registered data and login data are matching.
     Ex:-facebook
 </p>
+=======
+    JSON web token (JWT), pronounced "jot", is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. 
+    Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs. 
+    when we logged-in somewhere , they provide us a unique token.which helps us to access through it token is provided only when the registered data and login data are matching.
+    Ex:-facebook
+</p>
+>>>>>>> e612eb255979b4f872015e2eca020b252a50f946

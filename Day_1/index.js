@@ -25,14 +25,24 @@
     ans:-
     ➔ In Node.js, Modules are the blocks of encapsulated code that communicate with an external application on the basis of their related functionality.
     ➔ Modules can be a single file or a collection of multiples files/folders.
-    ➔ The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks. Modules are of three types:
+    ➔ The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks. 
+       Modules are of three types:
     1. Core Modules/Internal modules
     2. Local Modules/Custom modules
     3. Third-party Modules
-    Core Modules: Node.js has many built-in modules that are part of the platform and comes with Node.js installation. These modules can be loaded into the program by using the require function. The require() function will return a JavaScript type depending on what the particular module returns. ex:- http creates an HTTP server in Node.js.
-    Local Modules: Unlike built-in and external modules, local modules are created locally in your Node.js application. Let’s create a simple calculating module that calculates various operations. Another file can use its exported functionality using the require() function.
-    Third-party modules: Third-party modules are modules that are available online using the Node Package Manager(NPM). These modules can be installed in the project folder or globally. Some of the popular third-party modules are mongoose, express, angular, and react.
-    Example:  npm install express.
+    Core Modules: Node.js has many built-in modules that are part of the platform and comes with Node.js installation.
+                   These modules can be loaded into the program by using the require function. 
+                   The require() function will return a JavaScript type depending on what the particular module returns. 
+                   ex:- http creates an HTTP server in Node.js.
+                   
+    Local Modules: Unlike built-in and external modules, local modules are created locally in your Node.js application. 
+                   Let’s create a simple calculating module that calculates various operations. 
+                   Another file can use its exported functionality using the require() function.
+                   
+    Third-party modules: Third-party modules are modules that are available online using the Node Package Manager(NPM). 
+                    These modules can be installed in the project folder or globally. 
+                    Some of the popular third-party modules are mongoose, express, angular, and react.
+                    Example:  npm install express.
 
     {/* ------------------------------------------------------------------------------------------------------------------- */}
 
@@ -40,7 +50,8 @@
     ans:-
     ➔ Module.exports is the instruction that tells Node. js which bits of code (functions, objects, strings, etc.) to “export” from a given file so other files are allowed to access the exported code.
     ➔ The module.exports is actually a property of the module object in node.js. module. Exports is the object that is returned to the require() call.
-    ➔ By module.exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method. easy to maintain and manage the code base in different modules.
+    ➔ By module.exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method. 
+        easy to maintain and manage the code base in different modules.
 
     {/* --------------------------------------------------------------------------------------------------------------- */}
 
@@ -64,8 +75,10 @@
     export {variable1 as name1, variable2 as name2, …, nameN };
     // export features declared earlier:
     export {myFunction, myVariable};
-    Default Exports: Default exports are useful to export only a single object, function, variable. During the import, we can use any name to import.Exports without a default tag are Named exports. Exports with the default tag are Default exports.
-    default export:- Using Named and Default Exports at the same time: It is possible to use Named and Default exports in the same file. It means both will be imported in the same file. Example: javascript.
+    Default Exports: Default exports are useful to export only a single object, function, variable. During the import, we can use any name to import.
+                     Exports without a default tag are Named exports. Exports with the default tag are Default exports.
+    default export:- Using Named and Default Exports at the same time: It is possible to use Named and Default exports in the same file. 
+                    It means both will be imported in the same file. Example: javascript.
     function defau(req,res){
         res.send("default exports")
     }
@@ -81,7 +94,9 @@
     6) How do you import any module in Node.js?
     ans:-
     Importing functions or modules enhances the reusability of code.
-    Importing a Module: We need to import the module to use the functions defined in the imported module in another file. The result returned by require() is stored in a variable which is used to invoke the functions using the dot notation.
+    
+    Importing a Module: We need to import the module to use the functions defined in the imported module in another file. 
+                The result returned by require() is stored in a variable which is used to invoke the functions using the dot notation.
     const f = require('./func')
 
     {/* ------------------------------------------------------------------------------------------------------------- */}
